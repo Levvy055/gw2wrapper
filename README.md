@@ -129,7 +129,7 @@ For example, ```GuildWars2Utility.parseCoins(long)``` will parse the given coin 
  ```java
 long coins = 199;
 long[] result = GuildWars2Utility.parseCoins(coins);
-//result will be [0, 1, 99], whilch means 0 gold, 1 sliver and 99 coppers
+//result will be [0, 1, 99], which means 0 gold, 1 sliver and 99 coppers
 ```
 
 ## Download
@@ -140,7 +140,7 @@ Download latest [release](https://github.com/xhsun/gw2wrapper/releases) in Maven
 <dependency>
     <groupId>me.xhsun.gw2wrapper</groupId>
     <artifactId>gw2wrapper</artifactId>
-    <version>1.3.1</version>
+    <version>1.3.2</version>
 </dependency>
 ```
 
@@ -149,7 +149,7 @@ Or Gradle:
 ```groovy
 dependencies {
   ...
-  compile 'me.xhsun.gw2wrapper:gw2wrapper:1.3.1'
+  compile 'me.xhsun.gw2wrapper:gw2wrapper:1.3.2'
   ...
 }
 ```
@@ -161,6 +161,18 @@ dependencies {
 If you find anything that is not working as it should be, please don't hesitate to open an issue in the issue tracker.
 
 <sub>When reporting an issue, it will help me a lot if you include what you've done that lead to the issue.</sub>
+
+Or, if you feel like it, you can always fork and try to fix it yourself.
+
+##### Somethings to know when contributing code
+
+- Try to adhere to the current code style of this library
+
+- Try to run some testes to make sure you didn't accidentally break anything before creating a pull request
+
+- It would help me to review your code if you tell me what you are trying to do in the pull request
+
+- I really do appreciate your effort to help me to improve this library
 
 #### Credit
  
